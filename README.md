@@ -1,3 +1,3 @@
 # Profile-Card-Component
 
-Frontendmentor.io challange vol-01
+Frontendmentor.io challenge vol-01
