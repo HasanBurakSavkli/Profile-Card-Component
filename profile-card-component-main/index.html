@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="circle-top" src="/images/bg-pattern-top.svg" alt="#">
+
+      <div class="card">
+        <img class="card__color" src="/images/bg-pattern-card.svg" alt="#" />
+
+        <div class="card__profile">
+          <img
+            src="/images/image-victor.jpg"
+            alt="person"
+            class="card__profile--person"
+          />
+          <h3 class="heading-3">Victor Crest <span>26</span></h3>
+          <p class="card__profile--location">London</p>
+        </div>
+
+        <div class="card__info">
+          <ul class="card__info--list">
+            <li class="bolded">80K</li>
+            <li>Followers</li>
+          </ul>
+          <ul class="card__info--list">
+            <li class="bolded">803K</li>
+            <li>Likes</li>
+          </ul>
+          <ul class="card__info--list">
+            <li class="bolded">1.4K</li>
+            <li>Photos</li>
+          </ul>
+        </div>
+      </div>
+
+      <img class="circle-bottom" src="/images/bg-pattern-bottom.svg" alt="#">
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
